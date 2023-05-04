@@ -1,0 +1,180 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+body > div:first-child,
+div#__next,
+div#__next > div {
+  height: 100%;
+  
+}
+
+.overflow {
+  height: 100%;
+  overflow: hidden;
+}
+
+.overflow .card-img-top {
+  transform: scale(1);
+  transition: all 0.2s ease-in-out;
+}
+
+.overflow .card-img-top:hover {
+  transform: scale(1.8);
+}
+
+#nprogress .bar {
+  background: #ff5367 !important;
+}
+
+#nprogress .spinner-icon {
+  border-top-color: #ffbb00;
+  border-left-color: #ffbb00;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #030518;
+    color: white;
+    word-break: break-all;
+  }
+  
+  li {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+  }
+  
+  li span {
+    margin: 10px;
+  }
+  
+  h1 {
+    margin: 20px auto;
+  }
+  img{
+  width: 30px; height: 30px;
+  margin-inline: 6px;
+  border-radius: 2px;
+  }
+
+
+
+
+  .parr{
+
+    background-color: rgb(156, 142, 142);
+    color: #000000;
+    margin-top: 80px;
+    margin-left: 0px;
+    margin-right: 50px;
+    font-family: 'Josefin_Sans';
+  }
+  .etiqueta{
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: -10px;
+    padding: 15px;
+    text-align: left;
+    font-family: 'Josefin_Sans';
+  }
+.contain{
+    display: flex;
+    width: 60%;
+    
+  }
+  .flex{
+    position:absolute;
+    top: 920px;
+    left: 10px;
+  }
+  .text{
+    text-align: center;
+  }
+  .text1{
+    text-align: left;
+  }
+  .images{
+    width: 220px; height: 220px;
+    margin-inline: 10px;
+    border-radius: 2px;
+    
+  
+  }
+  .title{
+    font-family: 'Josefin_Sans';
+    font-size: 20px;
+  }
+
+.text{
+    color: black;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-bottom: -10px;
+    margin-right: 0px;
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.column{
+    background-color: beige;
+    color: #000000;
+    border: 1px solid #333;
+    margin: 5px;
+    margin-bottom: -25px;
+    margin-top: -820px;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 8px 8px 5px #888;
+  }
+
+.logo{
+    width: 50px; height: 50px;
+    margin-top: -45px;
+    margin-left: 95%;
+    border-radius: 2px;
+  
+}
+.abajo{
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    margin-top: 150px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-family: 'Josefin_Sans';
+  }
+ 
+.addres{
+    margin-left: 900px;
+    margin-right: 0px;
+    margin-bottom: -800px;
+    margin-top: 0px;
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.personal{
+    margin-left: 40px;
+    margin-right: 1600px;
+    margin-bottom: -1600px;
+    margin-top: 0px;
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
